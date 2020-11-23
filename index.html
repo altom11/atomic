@@ -7,9 +7,26 @@
     <title>Project Mini</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGE9V5C7T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FXGE9V5C7T');
+    </script>
 </head>
 <body>
+    <aside>
+        <div class="warning-container">
+            <h2>Peringatan</h2>
+            <p>Belajar itu menyenangkan</p>
+            <a href="#" onclick="goBack()">Kembali</a>
+            <a href="#" onclick="closeWarning()">Oke, Lanjutkan!</a>
+        </div>
+    </aside>
     <header>
         <div class="profile-container">
             <img src="585.png" alt="Foto profil" title="Go Green">
