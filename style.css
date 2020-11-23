@@ -15,6 +15,47 @@ body{
     color: #424242;
 }
 
+aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding:15px;
+    background: #eceff1;
+}
+
+aside .warning-container h2{
+    margin: 0 auto 15px;
+}
+
+aside .warning-container p{
+    margin: 0 auto 30px;
+}
+
+aside .warning-container a{
+    padding: 10px 15px;
+    background: transparent;
+    color: #7879b9;
+    transition: .25s;
+}
+
+aside .warning-container a:last-child{
+    margin-left: 5px;
+    background: #7879b9;
+    color: #fff;
+    border: solid 2px #7879b9;
+    border-radius: 5px;
+}
+
+aside .warning-container a:last-child:hover{
+    background: transparent;
+    color: #7879b9;
+}
+
 header .profile-container{
     width: 120px;
     height: 120px;
